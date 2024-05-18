@@ -1,0 +1,10 @@
+.custom-z-index {
+  z-index: -1;
+  pointer-events: auto; /* Ensures the canvas is interactive */
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
