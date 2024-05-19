@@ -6,7 +6,9 @@ const App = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    webGLFluidEnhanced.simulation(canvasRef.current);
+    webGLFluidEnhanced.simulation(canvasRef.current, {
+      BACK_COLOR: "#0E0F1A",
+    });
   });
 
   return (

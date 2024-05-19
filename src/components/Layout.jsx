@@ -1,6 +1,7 @@
 import MotionArtEffect_Logo from "../assets/MotionArtEffect-logo.png";
 import CompatibleSection from "./CompatibleSection";
 import FeaturedSection from "./FeaturedSection";
+import Footer from "./Footer";
 import IntroSection from "./IntroSection";
 import Navbar from "./Navbar";
 import PurchaseSection from "./PurchaseSection";
@@ -37,6 +38,7 @@ const Layout = ({ canvasRef }) => {
         <CompatibleSection />
         <FeaturedSection />
       </div>
+      <Footer />
     </div>
   );
 };
